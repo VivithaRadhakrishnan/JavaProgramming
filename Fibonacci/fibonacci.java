@@ -1,8 +1,6 @@
 package Fibonacci;
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class fibonacci {
     public static void main(String[] args) {
         int first = 0;
