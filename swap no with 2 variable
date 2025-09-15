@@ -1,0 +1,24 @@
+class Main {
+    
+    public int[] swap(int a, int b){
+    
+    
+        if(a !=0 && b !=0){
+            b=b+a;
+            System.out.println("B:"+b);
+            a=b-a;
+            System.out.println("A: "+a+"B: "+b);
+            b=b-a;
+            System.out.println("B: "+b+"A: "+a);
+        }
+    return new int[] {a,b};
+    }
+    public static void main(String[] args) {
+      Main m = new Main();
+      int a=12;
+      int b=34;
+      System.out.println("The Value of A: "+a+ " B: "+b);
+      int[] result = m.swap(a,b);
+        
+        System.out.println("Result A: "+result[0]+" B: "+result[1]);
+    }
